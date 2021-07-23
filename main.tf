@@ -6,8 +6,4 @@ provider "azurerm" {
 module "resource_group" {
   source   = "./modules/resgrp"
   
-  tags = {
-    Environment = "test"
-  }
-  
 }
